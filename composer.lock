@@ -1578,16 +1578,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.7.3",
+            "version": "8.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "b8ca92d4274048aff6bb020c329596c0e9b91269"
+                "reference": "a6d447d41545323f54c5034e551fb43b8050eca9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/b8ca92d4274048aff6bb020c329596c0e9b91269",
-                "reference": "b8ca92d4274048aff6bb020c329596c0e9b91269",
+                "url": "https://api.github.com/repos/drupal/core/zipball/a6d447d41545323f54c5034e551fb43b8050eca9",
+                "reference": "a6d447d41545323f54c5034e551fb43b8050eca9",
                 "shasum": ""
             },
             "require": {
@@ -1818,7 +1818,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-06-05T19:21:30+00:00"
+            "time": "2019-07-04T07:26:51+00:00"
         },
         {
             "name": "drupal/drupal-driver",
@@ -4916,16 +4916,16 @@
         },
         {
             "name": "webflo/drupal-core-strict",
-            "version": "8.7.3",
+            "version": "8.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webflo/drupal-core-strict.git",
-                "reference": "d1c13f088843cf43ab4fd73407e7420ac321829b"
+                "reference": "903b46f029cd2d4281d89d649de43fcf2ca0e3c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/d1c13f088843cf43ab4fd73407e7420ac321829b",
-                "reference": "d1c13f088843cf43ab4fd73407e7420ac321829b",
+                "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/903b46f029cd2d4281d89d649de43fcf2ca0e3c2",
+                "reference": "903b46f029cd2d4281d89d649de43fcf2ca0e3c2",
                 "shasum": ""
             },
             "require": {
@@ -5023,7 +5023,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Locked core dependencies",
-            "time": "2019-06-05T19:30:53+00:00"
+            "time": "2019-07-04T08:00:49+00:00"
         },
         {
             "name": "webflo/drupal-finder",
