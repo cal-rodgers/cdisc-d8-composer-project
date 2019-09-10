@@ -1,0 +1,41 @@
+uuid: c8f4d62a-cefb-44d4-83a3-92a20eb74a31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kb_content
+    - node.type.knowledge_base
+    - paragraphs.paragraphs_type.code_snippet
+    - paragraphs.paragraphs_type.kb_image
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: node.knowledge_base.field_kb_content
+field_name: field_kb_content
+entity_type: node
+bundle: knowledge_base
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text: text
+      kb_image: kb_image
+      code_snippet: code_snippet
+    target_bundles_drag_drop:
+      text:
+        enabled: true
+        weight: -7
+      kb_image:
+        enabled: true
+        weight: -6
+      code_snippet:
+        enabled: true
+        weight: -5
+field_type: entity_reference_revisions

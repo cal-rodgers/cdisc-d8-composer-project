@@ -1,0 +1,21 @@
+uuid: c5a833c9-4bee-4eb9-9bd8-8d179fc82b43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_code
+    - paragraphs.paragraphs_type.code_snippet
+  module:
+    - text
+id: paragraph.code_snippet.field_p_code
+field_name: field_p_code
+entity_type: paragraph
+bundle: code_snippet
+label: Code
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
