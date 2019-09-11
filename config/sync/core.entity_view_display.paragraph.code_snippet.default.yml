@@ -1,0 +1,23 @@
+uuid: cc99f773-5170-498c-98fe-5a6d37c5ce60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.code_snippet.field_p_code
+    - paragraphs.paragraphs_type.code_snippet
+  module:
+    - text
+id: paragraph.code_snippet.default
+targetEntityType: paragraph
+bundle: code_snippet
+mode: default
+content:
+  field_p_code:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  search_api_excerpt: true

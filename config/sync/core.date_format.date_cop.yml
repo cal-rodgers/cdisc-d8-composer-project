@@ -1,0 +1,8 @@
+uuid: c0ba1244-82c6-4cf1-9bd2-132bbc822a9c
+langcode: en
+status: true
+dependencies: {  }
+id: date_cop
+label: 'Date - COP'
+locked: false
+pattern: 'j M Y'
