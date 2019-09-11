@@ -1,0 +1,9 @@
+uuid: 6fe6c5f3-458e-4079-ad36-703922ba15be
+langcode: en
+status: true
+dependencies: {  }
+id: kb_image
+label: 'KB Image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
