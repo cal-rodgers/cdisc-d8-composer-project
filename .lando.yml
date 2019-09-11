@@ -1,0 +1,6 @@
+name: cdisc-d8-composer-project
+recipe: pantheon
+config:
+  framework: drupal8
+  site: cdisc-d8-composer-project
+  id: dac6f289-4964-41a0-b07e-5032c1c80dce

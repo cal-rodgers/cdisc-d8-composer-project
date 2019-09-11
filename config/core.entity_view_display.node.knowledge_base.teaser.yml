@@ -1,0 +1,31 @@
+uuid: a55ef117-8a3c-49f9-bb37-acda0c22c203
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.knowledge_base.body
+    - node.type.knowledge_base
+  module:
+    - text
+    - user
+id: node.knowledge_base.teaser
+targetEntityType: node
+bundle: knowledge_base
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true
