@@ -1,0 +1,21 @@
+uuid: dcc64106-5ca6-437d-91a6-368df337434c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kb_summary
+    - node.type.knowledge_base
+  module:
+    - text
+id: node.knowledge_base.field_kb_summary
+field_name: field_kb_summary
+entity_type: node
+bundle: knowledge_base
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
