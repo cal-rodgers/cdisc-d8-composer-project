@@ -1,0 +1,23 @@
+uuid: 64dcc982-d205-4ada-a818-d7a3f20c4948
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_p_text
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_p_text:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  search_api_excerpt: true
