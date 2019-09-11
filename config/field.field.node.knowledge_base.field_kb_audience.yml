@@ -1,0 +1,29 @@
+uuid: 1d029ff8-964d-4402-aebf-bbe6805d13b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kb_audience
+    - node.type.knowledge_base
+    - taxonomy.vocabulary.audience
+id: node.knowledge_base.field_kb_audience
+field_name: field_kb_audience
+entity_type: node
+bundle: knowledge_base
+label: Audience
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audience: audience
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
