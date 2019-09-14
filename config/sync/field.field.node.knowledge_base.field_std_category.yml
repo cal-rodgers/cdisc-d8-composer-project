@@ -1,0 +1,29 @@
+uuid: 6d8b48ee-33ac-429d-9e97-320f66e18a7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_std_category
+    - node.type.knowledge_base
+    - taxonomy.vocabulary.standard_category
+id: node.knowledge_base.field_std_category
+field_name: field_std_category
+entity_type: node
+bundle: knowledge_base
+label: Standard
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      standard_category: standard_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

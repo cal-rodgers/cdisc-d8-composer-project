@@ -1,0 +1,75 @@
+uuid: 4ccf1f5d-9732-4909-8475-d97ad0be5c81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.knowledge_base.body
+    - field.field.node.knowledge_base.field_kb_audience
+    - field.field.node.knowledge_base.field_kb_content
+    - field.field.node.knowledge_base.field_kb_proficiency
+    - field.field.node.knowledge_base.field_kb_summary
+    - field.field.node.knowledge_base.field_std_category
+    - node.type.knowledge_base
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.knowledge_base.default
+targetEntityType: node
+bundle: knowledge_base
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_kb_audience:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_kb_content:
+    type: entity_reference_revisions_entity_view
+    weight: 106
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_kb_proficiency:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_kb_summary:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_std_category:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true
