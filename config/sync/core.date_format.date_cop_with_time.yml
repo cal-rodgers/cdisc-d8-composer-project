@@ -1,0 +1,8 @@
+uuid: 7021f2c7-bb6d-45ba-a699-0865432c87b4
+langcode: en
+status: true
+dependencies: {  }
+id: date_cop_with_time
+label: 'Date COP with Time'
+locked: false
+pattern: 'j M Y  h:i a'
