@@ -1,0 +1,8 @@
+uuid: cfd81052-7fe5-4f61-b4d7-8fbf5201a513
+langcode: en
+status: true
+dependencies: {  }
+name: 'Standard Category'
+vid: standard_category
+description: ''
+weight: 0
