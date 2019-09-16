@@ -20,7 +20,7 @@ include __DIR__ . "/settings.pantheon.php";
  * Place the config directory outside of the Drupal root.
  */
 $config_directories = array(
-  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
+  CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config/sync',
 );
 
 /**
@@ -36,3 +36,11 @@ if (file_exists($local_settings)) {
  * modifying settings.php.
  */
 $settings['install_profile'] = 'standard';
+
+// Use development config in dev environments.
+if (in_array($config['server_environment'], ['live', 'test'])) {
+  $config['config_split.config_split.config_dev']['status'] = FALSE;
+ }
+ else {
+  $config['config_split.config_split.config_dev']['status'] = TRUE;
+ }
