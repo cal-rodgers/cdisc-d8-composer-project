@@ -1,0 +1,8 @@
+uuid: a10c64f1-2bb5-484d-8bac-caf67ab4135f
+langcode: en
+status: true
+dependencies: {  }
+name: Proficiency
+vid: proficiency
+description: ''
+weight: 0
