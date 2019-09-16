@@ -1,0 +1,21 @@
+uuid: 7a185101-35a1-44eb-80b5-ac0a2895da26
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_kb_content
+field_name: field_kb_content
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

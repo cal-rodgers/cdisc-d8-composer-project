@@ -1,0 +1,36 @@
+uuid: 3debf4e2-2363-4cb1-9828-00fbe32fb280
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.pantheon_index
+id: test_search_page
+label: 'Test Search Page'
+path: test-search-page
+clean_url: true
+show_all_when_no_keys: false
+index: pantheon_index
+limit: 10
+searched_fields:
+  body: body
+  field_p_code: field_p_code
+  field_p_text: field_p_text
+  title: title
+  type: type
+style: view_modes
+view_mode_configuration:
+  'entity:node':
+    default: default
+    overrides:
+      article: ''
+  'entity:paragraph':
+    default: default
+    overrides:
+      code_snippet: ''
+      text: ''
+  'entity:taxonomy_term':
+    default: default
+    overrides:
+      tags: ''
+show_search_form: true
+parse_mode: direct

@@ -1,0 +1,19 @@
+uuid: fb506553-22f3-434b-8045-4957ebca1933
+langcode: en
+status: true
+dependencies: {  }
+id: config_dev
+label: 'Development config'
+description: 'Development Configuration'
+folder: ../config/splits/config_dev
+module:
+  devel: 0
+  devel_generate: 0
+theme: {  }
+blacklist:
+  - devel.settings
+  - devel.toolbar.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
